@@ -1,0 +1,133 @@
+.bottom{
+    height:1000px;
+}
+.grxx{
+    overflow: hidden;
+}
+.jianli{
+    position: absolute;
+    width:800px;
+    height:900px;
+    top:10%;
+    left: 30%;
+    background-color: rgba(168, 168, 168, 0.82);
+}
+.zhaopian{
+    float: right;
+    width:120px;
+    height:160px;
+    margin-right: 100px;
+    margin-top:10px;
+}
+.zhaopian img{
+    width:120px;
+    height:160px;
+}
+.xx{
+    float: left;
+    width:400px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.xx_top{
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+
+}
+.xx>ul{
+    padding: 0;
+    margin-left: 30px;
+    width:400px;
+}
+
+.xx>ul>li{
+    list-style: none;
+    display: inline-block;
+    line-height:35px;
+    width:47%;
+    margin-bottom:15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+.xx>ul>li>input{
+    line-height: 35px;
+    width:100px;
+    border: none;
+    background-color: #f0f0f0;
+}
+.jieshao{
+    width:80%;
+    height:auto;
+    margin: 5% 10%;
+}
+.jieshao>ul{
+   margin: 0 auto;
+}
+.jieshao>ul>li{
+    list-style: none;
+    background-color:  #f0f0f0;
+    line-height: 50px;
+    margin-bottom:10px;
+    text-align: start;
+    width:600px;
+    margin-left: 7.5%;
+    border-radius: 10px;
+}
+.jieshao>ul>li>span{
+    vertical-align: top;
+    margin-left: 3%;
+}
+.jieshao>ul>li>textarea{
+    height:90px;
+    padding: 0;
+    margin-top: 2.5%;
+    width: 500px;
+    resize: none;
+    background-color: rgba(84, 84, 84, 0);
+    border: none;
+    outline: none;
+}
+.sub{
+    margin:0 auto;
+    width:120px;
+}
+.sub>input{
+    margin-right: 15px;
+    width:50px;
+    height:30px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.sub>input:hover{
+    background-color: black;
+    color: white;
+}
+select{
+    width:100px;
+    height:30px;
+    overflow: hidden;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.sub>a{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    width:50px;
+    line-height:30px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.sub>a:hover{
+    background-color: black;
+    color: white;
+}
