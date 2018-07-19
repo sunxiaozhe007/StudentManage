@@ -1,0 +1,91 @@
+
+.r_m{
+    overflow: hidden;
+}
+.r_m>div{
+    width:25%;
+    float: left;
+    text-align: center;
+}
+.r_m_r>button{
+    border: none;
+
+}
+.r_t>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    line-height: 35px;
+    background-color: black;
+    border-radius: 35px;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    right:0;
+    font-size: 13px;
+    bottom:0;
+}
+.r_t>a:hover{
+    color:black;
+    background-color: #bfbfbf;
+}
+.r_t input:nth-child(1){
+    line-height: 30px;
+}
+.r_t input:nth-child(2){
+    border: none;
+    background-color: #a6a6a6;
+    width: 50px;
+    height: 30px;
+    border-radius: 35px;
+    margin-left: 50px;
+}
+
+.r_t{
+    margin: 50px 0;
+    height: 50px;
+    position: relative;
+}
+
+.right{
+    margin-left: 20px;
+    float: left;
+    text-align: center;
+    width:80%;
+    position: relative;
+}
+#delete{
+    position: absolute;
+    right:70px;
+    bottom:0px;
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    transition: all 0.5s ease-in-out;
+}
+#delete:hover{
+    color:black;
+    background-color: #bfbfbf;
+}
+.shuju_ul{
+    width:100%;
+    margin-top:35px;
+}
+.shuju_ul>li{
+    list-style: none;
+    margin-left: 1%;
+    line-height: 35px;
+    float: left;
+    margin-bottom: 5px;
+    margin-top:15px;
+    width:23.5%;
+    background-color: rgba(166, 166, 166, 0.4);
+}
+.shuju>ul>li>a{
+    text-decoration: none;
+    color:black;
+}

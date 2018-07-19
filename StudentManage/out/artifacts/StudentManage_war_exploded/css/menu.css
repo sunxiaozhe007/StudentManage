@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    font-size: 16px;
+}
+textarea{
+    font-size: 18px;
+}
+p{
+    font-size: 16px;
+}
+body,html{
+    height: 100%;
+}
+html{
+    overflow-y: scroll;
+}
+.bottom{
+    height:100%;
+    overflow: hidden;
+    background-color: rgba(192, 192, 192, 0.36);
+}
+.menulist{;
+    background-color: black;
+    width:200px;
+    float: left;
+    height: 100%;
+}
+.menu{
+    width:200px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.menu>a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    line-height: 100px;
+    transition: all 0.5s ease-in-out;
+}
+.menu:hover{
+    background-color: #ffffff;
+}
+.menu>a:hover{
+    background-color: #ffffff;
+    color:black;
+}
+.bg{
+    background: url("../image/yuantu09.png") 0 0 repeat;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 130%;
+}
+.top{
+    width:100%;
+    height:100px;
+    background-color: rgba(0, 0, 0, 0.29);
+    text-align: center;
+    position: relative;
+}
+.top>p{
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+    font-family:fantasy;
+}
+.top>img{
+    width: 80px;
+    height: 80px;
+    margin-top:10px;
+    margin-left:30px;
+    position: absolute;
+    border-radius: 50%;
+    left:0;
+}
